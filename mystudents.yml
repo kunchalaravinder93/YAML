@@ -1,0 +1,22 @@
+---
+student: 
+- name: anil
+  phone: 789
+  address:
+     door no: 44
+     street: 4
+     pin code: 500018
+
+- name: sunil
+  phone: 456
+  address: 
+     door no: 45
+     street: 3
+     pin code: 500019        
+
+- name: ravi
+  phone: 123
+  address: 
+     door no: 456
+     street: 123
+     pin code: 500020

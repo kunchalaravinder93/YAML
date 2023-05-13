@@ -2,16 +2,18 @@
 - hosts: all
   become: yes
   tasks:
-  - name:
+  - name: i want pimg all nodes 
     ping:
 
-  - name: i want to intsall webserver on ubuntu ansible nodes
+
+  - name: i want ti install webserver ubuntu ansible nodes
     apt:
      name: apache2
-     state: present
+     state: absent
+
+
 
   - name: i want to install tree on ubuntu
     apt:
      name: tree
-     state: present
-
+     state: absent
