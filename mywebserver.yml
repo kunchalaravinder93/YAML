@@ -18,10 +18,10 @@
     ansible.builtin.dnf:
      name: httpd
      state: present
-    when: ansible_os_family == "Redhat"
+    when: ansible_os_family =="Redhat"
 
   - name: i want to start webserver on Redhat nodes
     service: 
       name: httpd
       state: started
-    when: ansible_os_family == "Redhat"  
+    when: ansible_os_family =="Redhat"  
