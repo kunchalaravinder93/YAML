@@ -1,0 +1,12 @@
+---
+- hosts: 172.31.46.156
+  become: yes
+  vars: 
+   myvar01: git
+   myvaro2: tree
+   myvar03: wget
+  tasks:
+  - name: i want to display myvar01
+    debug:
+      msg:"{{myvar01}}"
+  
