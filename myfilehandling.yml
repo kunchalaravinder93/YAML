@@ -10,6 +10,6 @@
       state: present
   - name: copy index file into node side
     copy:
-      src:
+      src: myindexpage
       dest: /var/www/html/index.html
 
